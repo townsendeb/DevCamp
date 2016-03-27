@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		E07F98381C568E03007F2333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07F98371C568E03007F2333 /* AppDelegate.swift */; };
 		E07F983A1C568E03007F2333 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07F98391C568E03007F2333 /* FirstViewController.swift */; };
-		E07F983C1C568E03007F2333 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07F983B1C568E03007F2333 /* SecondViewController.swift */; };
+		E07F983C1C568E03007F2333 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07F983B1C568E03007F2333 /* LocationVC.swift */; };
 		E07F983F1C568E03007F2333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E07F983D1C568E03007F2333 /* Main.storyboard */; };
 		E07F98411C568E03007F2333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E07F98401C568E03007F2333 /* Assets.xcassets */; };
 		E07F98441C568E03007F2333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E07F98421C568E03007F2333 /* LaunchScreen.storyboard */; };
+		E07F984C1C56A3AC007F2333 /* BootCampAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07F984B1C56A3AC007F2333 /* BootCampAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E07F98341C568E03007F2333 /* DevCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E07F98371C568E03007F2333 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E07F98391C568E03007F2333 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E07F983B1C568E03007F2333 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E07F983B1C568E03007F2333 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		E07F983E1C568E03007F2333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E07F98401C568E03007F2333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E07F98431C568E03007F2333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E07F98451C568E03007F2333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E07F984B1C56A3AC007F2333 /* BootCampAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootCampAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				E07F98371C568E03007F2333 /* AppDelegate.swift */,
 				E07F98391C568E03007F2333 /* FirstViewController.swift */,
-				E07F983B1C568E03007F2333 /* SecondViewController.swift */,
+				E07F983B1C568E03007F2333 /* LocationVC.swift */,
+				E07F984B1C56A3AC007F2333 /* BootCampAnnotation.swift */,
 				E07F983D1C568E03007F2333 /* Main.storyboard */,
 				E07F98401C568E03007F2333 /* Assets.xcassets */,
 				E07F98421C568E03007F2333 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E07F983C1C568E03007F2333 /* SecondViewController.swift in Sources */,
+				E07F983C1C568E03007F2333 /* LocationVC.swift in Sources */,
 				E07F98381C568E03007F2333 /* AppDelegate.swift in Sources */,
 				E07F983A1C568E03007F2333 /* FirstViewController.swift in Sources */,
+				E07F984C1C56A3AC007F2333 /* BootCampAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +292,7 @@
 				E07F984A1C568E03007F2333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
